@@ -112,7 +112,7 @@ $fn = new custom_functions;
                 </span>
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg">
-                    <h3>Smart Id Maker</h3>
+                    <h3>G-5</h3>
                 </span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
@@ -191,29 +191,7 @@ $fn = new custom_functions;
                     </a>
                 </li>
  
-                 <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-calendar"></i>
-                        <span>Plans</span>
-                        <i class="fa fa-angle-right pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="plan.php"><i class="fa fa-calendar"></i>Plan</a></li>
-                        <li><a href="user_plan.php"><i class="fa fa-user"></i>User Plan</a></li>
-                   </ul>
-                </li>
-
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-calendar"></i>
-                        <span>Outsource Plans</span>
-                        <i class="fa fa-angle-right pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="outsource_plan.php"><i class="fa fa-calendar"></i>Outsource Plan</a></li>
-                        <li><a href="outsource_user_plan.php"><i class="fa fa-user"></i>Outsource User Plan</a></li>
-                   </ul>
-                </li>
+        
 
                 <li class="treeview">
                     <a href="bank_details.php">
