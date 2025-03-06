@@ -1,7 +1,7 @@
 <?php
 
 
-define('DOMAIN_URL', 'https://admin.aidiapp.in/');
+define('DOMAIN_URL', 'https://admin.gfive.shop/');
 define('ALLOW_MODIFICATION', 1);
 define('JWT_SECRET_KEY', '12345678');
 define('COST_PER_CODE', 0.17);

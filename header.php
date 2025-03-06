@@ -248,6 +248,18 @@ $fn = new custom_functions;
                        <span>Youtube Links</span>
                     </a>
                 </li>
+                <li class="treeview">
+                    <a href="category.php">
+                    <i class="fa fa-list"></i>
+                       <span>Category</span>
+                    </a>
+                </li>
+                <li class="treeview">
+                    <a href="product.php">
+                    <i class="fa fa-cube"></i>
+                       <span>Product</span>
+                    </a>
+                </li>
                 <?php
 
                  }
