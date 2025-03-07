@@ -13,16 +13,7 @@ $db = new Database();
 $db->connect();
 date_default_timezone_set('Asia/Kolkata');
 
-if (empty($_POST['category_id'])) {
-    $response['success'] = false;
-    $response['message'] = "Category Id is Empty";
-    echo json_encode($response);
-    return;
-}
-
-$category_id = $db->escapeString($_POST['category_id']);
-
-$sql = "SELECT * FROM category WHERE id = '$category_id'";
+$sql = "SELECT * FROM category";
 $db->sql($sql);
 $res = $db->getResult();
 $num = $db->numRows($res);
